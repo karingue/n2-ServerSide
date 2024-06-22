@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redes de Computadores</title>
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+
+    <link rel="stylesheet" href="css/topologia.css" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <nav>
+      <a href="index.html"><img src="images/logo.jpg" alt="" /></a>
+      <div class="navigation">
+        <ul>
+          <li><a href="topologies.html">Topologias</a></li>
+          <li><a href="models.html">Modelos de Rede</a></li>
+          <li><a href="protocols.html">Protocolos</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="home">
+      <h2>O que é uma topologia?</h2>
+      <p>
+        É a maneira em que é possível estruturar uma rede de computadores de
+        forma física.
+      </p>
+    </section>
+    <section id="contents">
+      <div class="container-1">
+        <img
+          src="https://www.diegomacedo.com.br/wp-content/uploads/2012/02/hibrida.jpg"
+          alt=""
+        />
+        <h3>Topologia Híbrida</h3>
+        <p>
+          Combinação de duas ou mais topologias de rede em um único sistema.
+          <br />
+          Permite que uma rede se adapte às necessidades específicas de uma
+          organização.
+        </p>
+      </div>
+      <div class="container-2">
+        <img
+          src="https://0a94e039e9.cbaul-cdnwnd.com/e3f4296b4be24588bb5866545e3798cb/200000020-eb42aec38f/arvore.jpg"
+          alt=""
+        />
+        <h3>Topologia Árvore</h3>
+        <p>
+          Uma combinação de topologias em estrela conectadas de forma
+          hierárquica. <br />
+          Pode ser vista como uma hierarquia de estrelas conectadas entre si.
+          Apresenta um equilíbrio entre desempenho, escalabilidade e
+          complexidade.
+        </p>
+      </div>
+      <div class="container-3">
+        <img
+          src="https://3.bp.blogspot.com/-VnirHLG70v4/VommwlKtgWI/AAAAAAAAAlo/B7_VtTPiAGE/s1600/mesh_topology.jpg"
+          alt=""
+        />
+        <h3>Topologia Malha</h3>
+        <p>
+          Cada dispositivo está conectado em todos os outros dispositivos.
+          Oferece alta redundância e confiabilidade. <br />
+          Difícil de instalar e gerenciar em grandes proporções devido ao grande
+          número de conexões necessárias.
+        </p>
+      </div>
+    </section>
+
+    <section id="contents">
+      <div class="container-1">
+        <img
+          src="https://i0.wp.com/www.diegomacedo.com.br/wp-content/uploads/2012/02/estrela.jpg?resize=400%2C300"
+          alt=""
+        />
+        <h3>Topologia Estrela</h3>
+        <p>
+          Conecta todos os dispositivos em um ponto central, facilitando a
+          <br />
+          identificação de problemas, mas com a vulnerabilidade de impactar toda
+          a rede se houver um problema no ponto central.
+        </p>
+      </div>
+      <div class="container-2">
+        <img
+          src="https://i0.wp.com/www.diegomacedo.com.br/wp-content/uploads/2012/02/barramento.jpg?w=475&ssl=1"
+          alt=""
+        />
+        <h3>Topologia Barramento</h3>
+        <p>
+          Todos os dispositivos usam o mesmo canal de comunicação, o
+          "barramento". Os dados são enviados de um dispositivo e recebidos por
+          todos os outros. Menos utilizado hoje em dia por causa de limitações
+          de desempenho e segurança.
+        </p>
+      </div>
+      <div class="container-3">
+        <img
+          src="https://i0.wp.com/www.diegomacedo.com.br/wp-content/uploads/2012/02/anel.jpg?resize=380%2C300"
+          alt=""
+        />
+        <h3>Topologia Anel</h3>
+        <p>
+          Cada dispositivo é conectado aos seus dois vizinhos mais próximos,
+          formando um anel. Os dados fluem em uma direção específica. Menos
+          utilizada em comparação com outras topologias devido a difícil
+          manutenção.
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
